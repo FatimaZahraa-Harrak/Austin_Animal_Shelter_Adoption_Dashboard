@@ -1,18 +1,74 @@
-# 🌟 Austin Animal Shelter Adoption Dashboard 🐶🐱
-I’m excited to share my latest Data Analysis project where I explored adoption trends at the Austin Animal Shelter using Excel, SQL, and Power BI.
-## 📊 Project Overview:
- The goal was to understand the key factors influencing animal adoptions and outcomes over time.
-### 🔧 Tools Used:
-Excel – for initial data cleaning and validation
-SQL – to query and organize large datasets efficiently
-Power BI – for building an interactive and insightful dashboard
-### 💡 Key Insights:
-Adoption Rate: 42% of total animals were adopted
-Total Animals: 78.2K animals recorded
-Top Animal Type: Dogs made up 56% of shelter residents
-Euthanized Animals: 6.1K – showing areas for further improvement
-Adoption by Color: Black animals had the highest adoption count (18.9K)
-Age Group: Adults were adopted slightly more than puppies
-### 📈 What I Learned:
- This project helped me strengthen my data cleaning workflow in Excel, optimize SQL queries for analysis, and design clear, story-driven visuals in Power BI.
-### 🐾 I believe data can make a real difference — even in helping more animals find their forever homes.
+# 🐾 Austin Animal Shelter Outcomes Analysis
+## 📘 Project Overview
+
+This project explores data from an animal shelter to analyze patterns and trends in animal outcomes such as adoption, transfer, and euthanasia. The goal is to understand the factors influencing outcomes based on attributes like breed, color, age, sex, and spay/neuter status.
+
+By performing data cleaning, visualization, and analysis, this project helps uncover insights that can improve animal welfare decisions and shelter operations.
+
+## 🎯 Objectives
+
+Identify the most common animal types and breeds in the shelter.
+
+Analyze adoption trends by age, color, and spay/neuter status.
+
+Examine seasonal or monthly trends in animal outcomes.
+
+Compare outcomes by sex and breed mix (mixed or purebred).
+
+Provide actionable insights to improve adoption rates and reduce euthanasia.
+
+## 📊 Dataset Description
+
+### File name: shelter_outcomes_cleaned.csv
+### Number of records: 78,238
+### Number of columns: 17
+
+Column	Description
+animal_id	Unique identifier for each animal
+animal_type	Type of animal (Dog, Cat, Other)
+Main breed	Primary breed of the animal
+Second breed	Secondary breed (if applicable)
+MIX OR NO	Indicates if the animal is a mix
+color1	Primary color
+Color2	Secondary color
+date_of_birth	Animal’s date of birth
+datetime	Date and time of the outcome
+Age upon_outcome	Age (in days) at outcome
+MONTH_OF_birth	Month of birth (numeric)
+Name	Animal’s name (if available)
+outcome_type	Final outcome (Adoption, Transfer, Euthanasia, etc.)
+outcome_subtype	Subcategory of the outcome
+sex_upon_outcome	Full sex and spay/neuter status description
+Sex	Gender only (Male, Female, Unknown)
+spayed/Neutered	Indicates whether the animal was sterilized
+### 🛠️ Tools & Technologies
+
+Power BI – Data visualization dashboard
+
+SQL – Data querying and filtering
+
+Excel / Python (optional) – Data cleaning and preparation
+
+GitHub – Project documentation and version control
+
+### 📈 Key Insights (example ideas)
+
+Most adopted animals are young dogs and cats under 2 years old.
+
+Spayed/Neutered animals have a higher chance of adoption.
+
+The majority of animals are mixed breeds, especially among dogs.
+
+Summer months show the highest adoption rates.
+
+### 🧠 Potential Dashboard Sections
+
+Overview of animal outcomes
+
+Adoption vs. Euthanasia trend over time
+
+Distribution by breed and color
+
+Adoption rate by age group and sex
+
+Monthly outcome patterns
