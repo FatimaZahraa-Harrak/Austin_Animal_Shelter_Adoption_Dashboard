@@ -72,3 +72,8 @@ Distribution by breed and color
 Adoption rate by age group and sex
 
 Monthly outcome patterns
+
+## 👩‍💻 Author
+### FatimaZahraa Harrak
+### 📧 Fatimaz.hk26@gmail.com
+### 🔗 www.linkedin.com/in/fatimazahraa-harrak-356510352
