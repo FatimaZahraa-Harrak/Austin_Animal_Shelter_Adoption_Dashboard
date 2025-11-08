@@ -4,7 +4,7 @@
 This project explores data from an animal shelter to analyze patterns and trends in animal outcomes such as adoption, transfer, and euthanasia. The goal is to understand the factors influencing outcomes based on attributes like breed, color, age, sex, and spay/neuter status.
 
 By performing data cleaning, visualization, and analysis, this project helps uncover insights that can improve animal welfare decisions and shelter operations.
-----------------------------------------------------------------------------------------------------------------------------------------
+
 ![alt image](https://github.com/FatimaZahraa-Harrak/Austin_Animal_Shelter_Adoption_Dashboard/blob/32d4d27b42a5dc02102a8261321835c0a5f05202/dashboard_animal.png)
 ## 🎯 Objectives
 
